@@ -1,0 +1,14 @@
+{
+	"name": "datawow-lab",
+	"version": "1.0.0",
+	"main": "index.js",
+	"workspaces": [
+		"apps/*"
+	],
+	"scripts": {
+		"dev:web": "cd apps/web && yarn run dev"
+	},
+	"author": "Crave-dev",
+	"license": "MIT",
+	"private": false
+}
